@@ -5,9 +5,9 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.dws.customerservice.Repository.CustomerRepository;
 import com.dws.customerservice.dto.Customer;
 import com.dws.customerservice.dto.RespuestaApi;
+import com.dws.customerservice.repository.CustomerRepository;
 
 @Service
 public class CustomerServiceImp implements CustomerService {
